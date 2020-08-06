@@ -25,17 +25,19 @@
 
 -->
 <head>
-  <meta charset="UTF-8">
-  <title>Birthday Card  2</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $(".envelope").click(function(){
-        $("#sonra").delay(10000).fadeIn();
-      });
-    });
-  </script>
+  	<meta charset="UTF-8">
+  	<title>Birthday Card  2</title>
+  	<link rel="stylesheet" href="./style.css">
+  	<link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  	<script type="text/javascript">
+    	$(document).ready(function(){
+      		$(".envelope").click(function(){
+        		$(".letter").delay(200).fadeIn();
+        		$("#sonra").delay(7000).fadeIn();
+      		});
+    	});
+  	</script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -43,16 +45,24 @@
   <div class="front">
     <div class="mail">
       <p style="margin-bottom: 30px;">Happy Birthday!</p>
-      <p style="margin-top: 30px;">Click me :)!</p>
+      <p>Click me :)!</p>
     </div>
   </div>
   <div class="back">
-    <div class="letter">
-			<p style="margin: 0;"></p><p style="font-size: 1.5em; margin: 5px 0px 5px 0px;">I am so sorry for everything. I did not want things to happen this way. I did mistakes. I know. But I regret so much. Nobody deliberately makes mistakes. Maybe an unlucky day or had unfortunate happenings. You are the person I give the most value in my life. Because you are the only person who understands me. And I don't want to lose <strong>YOU</strong> or other dears. You know, I love you too much. But people do mistakes against their loved ones. Whatever just **** it. Sorry for ruin your birthday with this message. Enjoy your day. And Don't forget to <i>SMILE</i> a lot ^.^. And say "Hello" to  Nika from me :). Maybe I'm not there. But you know I'm <strong><q>THERE</q></strong>. Again and Again <i>SORRY</i> for everything and <i>THANKS</i> for everything. Again a VERY Happy Birthday!</p>
+    <div class="letter" style="display: none;">
+		<p style="margin: 0;"></p><p style="font-size: 15px; margin: 5px 0px 5px 0px;">
+			Just wanted to be the first one to wish you happy birthday so I can feel superior to your other well-wishers :). On your birthday, may happiness and peace be your gift. Sending you smiles for every moment of your special day… To wish you a day that brings the same kind of happiness and joy that you bring to me. I pray that you get whatever your heart desires. May this special day of yours bring with it God’s blessings and love into your life. Enjoy your birthday celebration. You deserve it. Forget the past; look forward to the future, for the best things are yet to come. Many many happy returns of the day to the friend who has always stood with me in my difficult times. I hope you shine bright the whole year. Happy Birthday to a Dearest One!<br/>
+			<strong style="color: red;">H</strong> is for Humorous, spreading laughter around,<br/>
+			<strong style="color: red;">A</strong> is for Artistic, adding beauty to the world,<br/>
+			<strong style="color: red;">D</strong> is for Dependable, a reliable friend,<br/>
+			<strong style="color: red;">J</strong> is for Just, fair to everyone,<br/>
+			<strong style="color: red;">A</strong> is for Amiable, so friendly and warm<br/>
+			<strong style="color: red;">R</strong> is for Radiant, you are a shining light for me :)<br/>
+		</p>
       <hr style="margin-bottom: 0;">
-      <div style="margin: 0; font-size: 1.5em;">
-        <div style="display: inline-block; margin-top: 0; width: 40%;">
-          <a href="https://ulikgames.github.io/Gallery5/" style="/*display: none;*/ text-decoration: none; color: #ff0000; letter-spacing: 8px;" id="sonra">Next Page</a>
+      <div id="sonra" style="display: none; margin: 0; font-size: 1.5em;">
+        <div style="display: inline-block; margin-top: 2px; width: 44%;">
+          <a href="https://ulikgames.github.io/Gallery5/" style="text-decoration: none; color: #ff0000; letter-spacing: 8px; font-size: 20px;">Next Page</a>
           <img src="./heart.gif" class="myheart heartdiv">
         </div>				
         <p style="margin-top: 5.02px; display: inline-block; float: right; color: #ff969f;">From Goddamned Ulik</p>
@@ -65,7 +75,6 @@
   </div>
 </div>
 <!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.5/jquery.spritely.min.js'></script>
 <script  src="./script.js"></script>
 
